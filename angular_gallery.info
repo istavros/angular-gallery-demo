@@ -1,0 +1,6 @@
+name = angular_gallery
+description = A gallery with angular, isotope, views and rest services
+package = Custom
+version = 7.x-dev
+core = 7.x
+dependencies[] = 'angular_drupal'
