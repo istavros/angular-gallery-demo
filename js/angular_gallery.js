@@ -1,21 +1,8 @@
-// The angular-drupal configuration settings for my simple app.
-// angular.module('angular-drupal').config(function($provide) {
-
-//   $provide.value('drupalSettings', {
-//     sitePath: 'http://istav.gr/meetup7',
-//     endpoint: 'api'
-//   });
-
-// });
-
-// My simple app.
-
-// angular.module('angular_gallery', ['iso.directives'])
 angular.module('angular_gallery', ['wu.masonry'])
 .controller('GalleryController', ['$scope', '$http', function($scope, $http) {
-  var path = 'api/gallery', 
-    loadMoreTimer, 
-    page = -1, 
+  var path = 'api/gallery',
+    loadMoreTimer,
+    page = -1,
     pages = 1,
     infiniteScrollDisabled = false;
 
